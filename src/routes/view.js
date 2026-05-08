@@ -7,6 +7,7 @@ const pokeneas = require('../data/pokeneas');
 router.get('/pokenea', (req, res) => {
   const aleatorio = pokeneas[Math.floor(Math.random() * pokeneas.length)];
   const containerId = os.hostname();
+  const habilidad = aleatorio.habilidades || aleatorio.habilidad;
 
   res.send(`
     <!DOCTYPE html>
@@ -63,10 +64,20 @@ router.get('/pokenea', (req, res) => {
           font-style: italic;
           color: #a8dadc;
           line-height: 1.6;
-          margin-bottom: 2rem;
+          margin-bottom: 1.5rem;
           padding: 1rem;
           border-left: 3px solid #e94560;
           text-align: left;
+        }
+
+        .detalles {
+          background: #0f3460;
+          border-radius: 12px;
+          padding: 1rem;
+          margin-bottom: 1.5rem;
+          text-align: left;
+          font-size: 0.95rem;
+          line-height: 1.6;
         }
 
         .container-id {
@@ -83,7 +94,11 @@ router.get('/pokenea', (req, res) => {
         <div class="nombre">${aleatorio.nombre}</div>
         <img class="imagen" src="${aleatorio.imagen}" alt="${aleatorio.nombre}"/>
         <p class="frase">"${aleatorio.frase}"</p>
-        <span class="container-id">🐳 Contenedor: ${containerId}</span>
+        <div class="detalles">
+          <p><strong>Altura:</strong> ${aleatorio.altura} m</p>
+          <p><strong>Habilidad:</strong> ${habilidad}</p>
+        </div>
+        <span class="container-id"> Contenedor: ${containerId}</span>
       </div>
     </body>
     </html>
