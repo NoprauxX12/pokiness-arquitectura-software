@@ -4,7 +4,7 @@ const pokeneas = [
         nombre: "Pikachu",
         altura: 0.4,
         habilidades: "Impactrueno",
-        imagen: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+        imagen: "https://storage.googleapis.com/pokeneas-bucket1/Pikachu.png",
         frase: "Pikachu, ¡Pikachu!"
     },
     {
@@ -12,7 +12,7 @@ const pokeneas = [
         nombre: "Charizard",
         altura: 1.7,
         habilidades: "Lanzallamas",
-        imagen: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        imagen: "https://storage.googleapis.com/pokeneas-bucket1/Charizard.png",
         frase: "Fuego, ¡Fuego!"
     },
     {
@@ -20,7 +20,7 @@ const pokeneas = [
         nombre: "Bulbasaur",
         altura: 0.7,
         habilidades: "Planta",
-        imagen: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+        imagen: "https://storage.googleapis.com/pokeneas-bucket1/bulbasur.png",
         frase: "¡Bulbasaur, ¡Bulbasaur!"
     },
     {
@@ -28,7 +28,7 @@ const pokeneas = [
         nombre: "Squirtle",
         altura: 0.5,
         habilidades: "Agua",
-        imagen: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+        imagen: "https://storage.googleapis.com/pokeneas-bucket1/Squirtle.png",
         frase: "¡Squirtle, ¡Squirtle!"
     },
     {
@@ -36,7 +36,7 @@ const pokeneas = [
         nombre: "Charmander",
         altura: 0.6,
         habilidades: "Fuego",
-        imagen: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+        imagen: "https://storage.googleapis.com/pokeneas-bucket1/Charmander.png",
         frase: "¡Charmander, ¡Charmander!"
     },
     {
@@ -44,7 +44,7 @@ const pokeneas = [
         nombre: "Jigglypuff",
         altura: 0.5,
         habilidades: "Canto",
-        imagen: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+        imagen: "https://storage.googleapis.com/pokeneas-bucket1/Pikachu.png",
         frase: "¡Jigglypuff, ¡Jigglypuff!"
     },
     {
@@ -52,7 +52,7 @@ const pokeneas = [
         nombre: "Gengar",
         altura: 1.5,
         habilidades: "Psíquico",
-        imagen: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+        imagen: "https://storage.googleapis.com/pokeneas-bucket1/Gengar.png",
         frase: "¡Gengar, ¡Gengar!"
     },
 ]
