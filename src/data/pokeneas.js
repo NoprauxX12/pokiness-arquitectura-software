@@ -44,7 +44,7 @@ const pokeneas = [
         nombre: "Jigglypuff",
         altura: 0.5,
         habilidades: "Canto",
-        imagen: "https://storage.googleapis.com/pokeneas-bucket1/Pikachu.png",
+        imagen: "https://storage.googleapis.com/pokeneas-bucket1/Jigglypuff.webp",
         frase: "¡Jigglypuff, ¡Jigglypuff!"
     },
     {
